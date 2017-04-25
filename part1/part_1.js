@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-	alert(0);
+	document.getElementById("signin-btn").onclick = function givePassword() {
+		alert(0);
+	};
 });
 

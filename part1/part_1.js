@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
 	document.getElementById("signin-btn").onclick = function givePassword() {
 		alert(0);
 	};
-	document.getElementsByClass("problem").empty();
-	document.getElementsByClass("error-message").empty();
+	var prob = document.getElementsByClass("problem");
+	var err = document.getElementsByClass("error-message");
+	prob.parentNode.removeChild(prob);
+	err.parentNode.removeChild(err);
 });
 

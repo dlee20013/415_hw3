@@ -1,3 +1,3 @@
-function part1 {
+document.getElementById("name").addEventListener("DOMContentLoaded", function() {
 	alert(0);
-}
+}, false);
